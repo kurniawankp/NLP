@@ -7,7 +7,6 @@ import pandas as pd
 import pickle
 import re, string
 import nltk
-nltk.download('all')
 from nltk.corpus import stopwords
 from pywsd.utils import lemmatize_sentence
 from sklearn.feature_extraction.text import TfidfVectorizer
